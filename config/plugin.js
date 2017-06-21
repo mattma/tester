@@ -1,9 +1,8 @@
 'use strict';
 
-// had enabled by egg
-// exports.static = true;
+const path = require('path');
 
-exports.nunjucks = {
+exports.plain = {
   enable: true,
-  package: 'egg-view-nunjucks',
+  path: path.join(__dirname, '../plugin/egg-view-plain'),
 };
