@@ -7,9 +7,6 @@ run/
 .DS_Store
 *.swp
 
-# Application main
-app/dist/
-
 # Server build file
 server.tar.gz
 
