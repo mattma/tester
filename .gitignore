@@ -1,0 +1,18 @@
+logs/
+npm-debug.log
+node_modules/
+coverage/
+.idea/
+run/
+.DS_Store
+*.swp
+
+# Application main
+app/dist/
+
+# Server build file
+server.tar.gz
+
+# CI related
+.travis.yml
+appveyor.yml
