@@ -5,7 +5,9 @@
   "private": true,
   "dependencies": {
     "egg": "^1.4.0",
-    "egg-view-nunjucks": "^2.1.2"
+    "egg-view-nunjucks": "^2.1.2",
+    "lru-cache": "^4.1.1",
+    "mz": "^2.6.0"
   },
   "devDependencies": {
     "rimraf": "^2.6.1"

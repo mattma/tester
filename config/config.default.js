@@ -15,13 +15,9 @@ module.exports = appInfo => {
   };
 
   config.view = {
-    defaultViewEngine: 'nunjucks',
-    root: dist,  // default to `{app_root}/app/view`
+    root: dist,
   };
 
-  config.nunjucks = {
-    cache: true, // local env is false
-  };
 
   return config;
 };

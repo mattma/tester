@@ -1,0 +1,11 @@
+{
+  "name": "egg-view-plain",
+  "version": "1.0.0",
+  "description": "yet, a simple plain view, just read file and return it, with lru-cache",
+  "eggPlugin": {
+    "name": "plain",
+    "dependencies": [
+      "view"
+    ]
+  }
+}
