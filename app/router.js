@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = app => {
-  app.get('/', 'en');
+  app.get('/zh-cn', 'cn');
   app.get('/en', 'en');
-  app.get('/zh', 'cn');
+  app.redirect('/', '/en');
 };
