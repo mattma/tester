@@ -3,7 +3,7 @@
 const osLocale = require('os-locale');
 const locale = osLocale.sync();
 // China zh_CN
-const defaultLocale = locale === 'en_US' ? '/zh-cn' : '/en';
+const defaultLocale = locale === 'en_US' ? '/en': '/zh-cn';
 
 module.exports = app => {
   app.get('/zh-cn*', 'cn');
