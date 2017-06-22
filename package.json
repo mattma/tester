@@ -7,7 +7,8 @@
     "egg": "^1.4.0",
     "egg-view-nunjucks": "^2.1.2",
     "lru-cache": "^4.1.1",
-    "mz": "^2.6.0"
+    "mz": "^2.6.0",
+    "os-locale": "^2.0.0"
   },
   "devDependencies": {
     "rimraf": "^2.6.1"
