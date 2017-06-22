@@ -5,7 +5,7 @@ const LRU = require('lru-cache');
 let tplCache;
 
 module.exports = app => {
-  if (this.config.cache !== false) {
+  if (app.config.plain.cache !== false) {
     tplCache = LRU(app.config.plain.cache);
   }
 
